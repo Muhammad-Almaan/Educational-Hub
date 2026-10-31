@@ -367,7 +367,7 @@ def poetry():
             }
         };
 
-        let currentTheme = 'sonnet';
+        let currentTheme = null;
 
         function switchTheme(themeName) {
             if (currentTheme === themeName) return;
